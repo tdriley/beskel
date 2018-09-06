@@ -1,16 +1,16 @@
-# feskel
-My Bare-bones Skeleton for quickly setting up a frontend ES6 project.
+# beskel
+My Bare-bones Skeleton for quickly setting up a node.js app written with ES6 modules.
 ## Getting started
 To download and install:
 ```
-git clone git@github.com:tdriley/feskel.git && cd feskel
+git clone git@github.com:tdriley/beskel.git && cd beskel
 npm install
 ```
 To build:
 ```
 npm run build
 ```
-To serve (http://localhost:8080):
+To start the app:
 ```
-npm run serve
+npm run start
 ```

@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'app.js'
   },
   module: {
     rules: [
@@ -19,7 +19,7 @@ module.exports = {
                 "@babel/preset-env",
                 {
                   "targets": {
-                    "ie": "11"
+                    "node": true
                   }
                 }
               ]
