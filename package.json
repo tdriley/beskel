@@ -1,11 +1,10 @@
 {
   "name": "beskel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My Bare-bones Skeleton for quickly setting up a node.js app written with ES6 modules.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "node --experimental-modules ./dist/app.js"
+    "start": "node --experimental-modules ./src/main.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,11 +16,5 @@
     "url": "https://github.com/tdriley/beskel/issues"
   },
   "homepage": "https://github.com/tdriley/beskel#readme",
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-loader": "^8.0.2",
-    "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0"
-  }
+  "devDependencies": {}
 }

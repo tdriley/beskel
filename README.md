@@ -1,14 +1,9 @@
 # beskel
-My Bare-bones Skeleton for quickly setting up a node.js app written with ES6 modules.
+My Bare-bones Skeleton for quickly setting up a node.js app written with ES6 modules. Note: as this uses the `--experimental-modules` feature to load .mjs files, Node 8.5.0 or higher is required. If you don't want to run it this way, you could use webpack to bundle your ES6 modules into a single file for running.
 ## Getting started
 To download and install:
 ```
 git clone git@github.com:tdriley/beskel.git && cd beskel
-npm install
-```
-To build:
-```
-npm run build
 ```
 To start the app:
 ```
